@@ -141,7 +141,7 @@ local function safecall(func, ...)
 	xpcall(function()
 		func(unpack(args))
 	end, function(err)
-		warn("[AEROV4] GUI Error: "..err)
+		warn("[richify] GUI Error: "..err)
 	end)
 end
 
