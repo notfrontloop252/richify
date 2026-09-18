@@ -5946,7 +5946,7 @@ run(function()
 	local Particles, Boxes = {}, {}
 	local anims, AnimDelay, AnimTween, armC0 = vape.Libraries.auraanims, tick()
 	local FROZEN_THRESHOLD = 10
-	local HIT_PERIOD = 0.1473
+	local HIT_PERIOD = 0.1875
 	local SERVER_FLOOR = 0.297
 	local SERVER_REACH = 14.399
 	local kaPeriod = HIT_PERIOD
